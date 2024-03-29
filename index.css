@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(253, 173, 173);
+}
+
+@keyframes rotate{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  border: 4px  solid rgb(227, 102, 70);
+  border-radius: 50%;
+  border-top: 4px solid white;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
